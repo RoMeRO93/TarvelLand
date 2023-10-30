@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Codul CSS pentru stilizarea butoanelor */
+        .navigation-button {
+            background-color: purple;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .navigation-button:hover {
+            background-color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" class="navigation-button">Acasă</a></li>
+                <li><a href="about.html" class="navigation-button">Despre Noi</a></li>
+                <li><a href="destinations.html" class="navigation-button">Destinații</a></li>
+                <li><a href="contact.html" class="navigation-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelLand - Descoperă Lumea</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link către fișierul CSS pentru stilizare -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo img {
+            width: 100px;
+        }
+        header .navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header .navigation li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header .banner img {
+            width: 100%;
+        }
+        section {
+            padding: 20px;
+        }
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .offer, .destination {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .offer img, .destination img {
+            width: 100%;
+        }
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer .contact-info, footer .useful-links {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>    
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" class="navigation-button" style="background-color: rgb(98, 0, 128); color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin: 5px; cursor: pointer;">Acasă</a></li>
+                <li><a href="about.html" class="navigation-button" style="background-color: rgb(98, 0, 128); color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin: 5px; cursor: pointer;">Despre Noi</a></li>
+                <li><a href="destinations.html" class="navigation-button" style="background-color: rgb(98, 0, 128); color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin: 5px; cursor: pointer;">Destinații</a></li>
+                <li><a href="contact.html" class="navigation-button" style="background-color: rgb(98, 0, 128); color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin: 5px; cursor: pointer;">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="banner"></div>
+            <img src="banner.jpg" style="width: 100%; height: 40vh; object-fit: cover;">
+        
+        </div>
+    </header>
+    
+    <section class="special-offers">
+        <h2>Oferte Speciale</h2>
+        <div class="offer">
+            <img src="offer1.jpg" alt="Ofertă 1">
+            <h3>Ofertă Exotică</h3>
+            <p>Descoperă exotismul în această destinație specială. Rezervă acum!</p>
+            <a href="#">Află mai multe</a>
+        </div>
+        <div class="offer">
+            <img src="offer2.jpg" alt="Ofertă 2">
+            <h3>Ofertă Montană</h3>
+            <p>Bucură-te de aventură în munți. Rezervă acum!</p>
+            <a href="#">Află mai multe</a>
+        </div>
+        <div class="offer">
+            <img src="offer3.jpg" alt="Ofertă 3">
+            <h3>Ofertă de Relaxare</h3>
+            <p>O experiență relaxantă pe plajă. Rezervă acum!</p>
+            <a href="#">Află mai multe</a>
+        </div>
+    </section>
+    
+    <section class="popular-destinations">
+        <h2>Destinații Populare</h2>
+        <div class="destination">
+            <img src="destination1.jpg" alt="Destinație 1">
+            <h3>Paris, Franța</h3>
+            <p>Descoperă frumusețea orașului luminilor.</p>
+        </div>
+        <div class="destination">
+            <img src="destination2.jpg" alt="Destinație 2">
+            <h3>Santorini, Grecia</h3>
+            <p>Explorează insula cu priveliști superbe.</p>
+        </div>
+        <div class="destination">
+            <img src="destination3.jpg" alt="Destinație 3">
+            <h3>Kyoto, Japonia</h3>
+            <p>Înfrumusețează-ți sufletul în templele japoneze.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="contact-info">
+            <h3>Contact</h3>
+            <p>Email: contact@traveland.com</p>
+            <p>Telefon: 0746 869 567</p>
+        </div>
+        <div class="useful-links">
+            <h3>Link-uri Utile</h3>
+            <ul>
+                <li><a href="#">Termeni și Condiții</a></li>
+                <li><a href="#">Politica de Confidențialitate</a></li>
+                <li><a href="#">Hartă Site</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
